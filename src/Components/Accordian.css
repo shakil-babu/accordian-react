@@ -1,0 +1,41 @@
+
+.accordian__area{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.accordian__info{
+    background: #000;
+    width: 60%;
+    margin:auto ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    border-bottom: 1px solid rgb(230, 227, 222);
+    padding-bottom: 8px;
+    margin-top: 15px;
+}
+.d-flex button{
+    background:transparent;
+    border: none;
+    outline:none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.title{
+    font-size: 18px;
+}
+.content{
+    padding: 10px 0;
+}
